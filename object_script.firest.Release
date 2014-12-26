@@ -1,0 +1,12 @@
+INPUT(
+./release\main.o
+./release\myclass.o
+./release\record.o
+./release\moc_myclass.o
+./release\qrc_qml.o
+./release\main.o
+./release\myclass.o
+./release\record.o
+./release\qrc_qml.o
+./release\moc_myclass.o
+);
