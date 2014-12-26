@@ -16,4 +16,6 @@ QML_IMPORT_PATH =
 include(deployment.pri)
 
 HEADERS += \
-    myclass.h
+    myclass.h \
+    audiorecorder.h \
+    qaudiolevel.h

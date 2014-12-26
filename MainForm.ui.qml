@@ -139,7 +139,7 @@ Rectangle {
     height: btnTag.height
     color: "blue"
     antialiasing: true
-    radius: 5
+    radius: 10
     visible: false
     opacity: btnStopClick.pressed ? .5 : .7
     anchors.verticalCenter: btnStart.bottom
