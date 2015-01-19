@@ -1,22 +1,22 @@
-#ifndef QAUDIOLEVEL_H
-#define QAUDIOLEVEL_H
+//#ifndef QAUDIOLEVEL_H
+//#define QAUDIOLEVEL_H
 
-#include <QWidget>
+//#include <QWidget>
 
-class QAudioLevel : public QWidget
-{
-    Q_OBJECT
-public:
-    explicit QAudioLevel(QWidget *parent = 0);
+//class QAudioLevel : public QWidget
+//{
+//    Q_OBJECT
+//public:
+//    explicit QAudioLevel(QWidget *parent = 0);
 
-    // Using [0; 1.0] range
-    void setLevel(qreal level);
+//    // Using [0; 1.0] range
+//    void setLevel(qreal level);
 
-protected:
-    void paintEvent(QPaintEvent *event);
+//protected:
+//    void paintEvent(QPaintEvent *event);
 
-private:
-    qreal m_level;
-};
+//private:
+//    qreal m_level;
+//};
 
-#endif // QAUDIOLEVEL_H
+//#endif // QAUDIOLEVEL_H
